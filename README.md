@@ -1,72 +1,73 @@
-Droply - File Sharing Web Application
+# Droply - File Sharing Web Application
 
 Droply is a simple, secure, and fast file-sharing web application built with Django. It allows users to upload, share, and manage their files effortlessly. With a sleek design and intuitive interface, Droply makes file management easy.
 
-Features
+## Features
 
-Secure file uploads and downloads
+* Secure file uploads and downloads
+* Simple and responsive UI
+* Organized file management
+* Real-time file sharing
 
-Simple and responsive UI
+## Technologies Used
 
-Organized file management
+* Django (Backend)
+* HTML, CSS, JavaScript (Frontend)
+* SQLite (Database)
 
-Real-time file sharing
+## Getting Started
 
-Watermarked branding for a professional touch
-
-Technologies Used
-
-Django (Backend)
-
-HTML, CSS, JavaScript (Frontend)
-
-SQLite (Database)
-
-Getting Started
-
-Prerequisites
+### Prerequisites
 
 Make sure you have the following installed:
 
-Python 3.12+
+* Python 3.12+
+* Django 5.1.7+
 
-Django 5.1.7+
+### Installation
 
-Installation
+1. Clone this repository:
 
-Clone this repository:
+   ```bash
+   git clone https://github.com/Sakship1406/Droply_File-sharing-web-application-using-django.git
 
-git clone https://github.com/yourusername/droply.git
-cd droply
+   ```
 
-Create and activate a virtual environment:
+2. Create and activate a virtual environment:
 
-python -m venv venv
-source venv/bin/activate  # For Windows: venv\Scripts\activate
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # For Windows: venv\Scripts\activate
+   ```
 
-Install required packages:
+3. Install required packages:
 
-pip install -r requirements.txt
-pip install djangorestframework
+   ```bash
+   pip install -r requirements.txt
+   pip install djangorestframework
+   ```
 
-Run database migrations:
+4. Run database migrations:
 
-python manage.py makemigrations
-python manage.py migrate
+   ```bash
+   python manage.py makemigrations
+   python manage.py migrate
+   ```
 
-Run the server:
+5. Run the server:
 
-python manage.py runserver
+   ```bash
+   python manage.py runserver
+   ```
 
-Access the app at http://localhost:8000
+6. Access the app at `http://localhost:8000`
 
-Usage
+## Usage
 
-Visit the homepage to upload and manage your files.
+* Visit the homepage to upload and manage your files.
+* Use the navigation menu to switch between different pages.
 
-Use the navigation menu to switch between different pages.
-
-Contributing
+## Contributing
 
 Contributions are welcome! Please fork this repository, create a new branch, and submit a pull request.
 
