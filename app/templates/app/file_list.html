@@ -1,0 +1,17 @@
+<!-- app/templates/app/file_list.html -->
+
+{% extends 'app/base.html' %}
+
+{% block content %}
+<h2>Uploaded Files</h2>
+<ul>
+    {% for file in files %}
+        <li>
+            <strong>{{ file.name }}</strong> -
+            <a href="{{ file.file.url }}" download>Download</a>
+        </li>
+    {% empty %}
+        <li>No files uploaded yet.</li>
+    {% endfor %}
+</ul>
+{% endblock %}

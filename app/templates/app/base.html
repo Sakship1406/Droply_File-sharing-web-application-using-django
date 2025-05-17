@@ -1,0 +1,23 @@
+{% load static %}
+<html>
+<head>
+    <title>File Sharing App</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'app/css/style.css' %}">
+    <script src="{% static 'app/js/script.js' %}" defer></script>
+</head>
+<body>
+    <div class="navbar">
+        <a href="/" class="nav-link">Home</a>
+        <a href="/upload/" class="nav-link">Upload File</a>
+        <a href="/files/" class="nav-link">View Files</a>
+    </div>
+
+    {% block body_class %}{% endblock %}
+    {% block content %}{% endblock %}
+
+    <footer style="position: fixed; bottom: 0; width: 100%; background-color: #fff; text-align: center; padding: 10px 0; font-size: 14px;">
+  © 2025 File Sharing App. Made with ❤️
+    </footer>
+
+</body>
+</html>
